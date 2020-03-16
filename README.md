@@ -1,6 +1,6 @@
 # image_processing_library
 
-Dependencies:
+## Dependencies:
 1. CUDA
 2. cuDNN
 3. https://github.com/xtensor-stack/xtl
@@ -9,3 +9,9 @@ Dependencies:
 6. NumPy Core
 
 Path should be set for all dependecies in CMakeLists.txt file.
+
+## Installation
+python setup.py install
+
+## Test
+python tests/test.py
